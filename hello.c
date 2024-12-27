@@ -1,20 +1,18 @@
-#include <stdio.h>
 
-int main(void)
+
+int main (void)
+
 {
-  int myarray [] = {5, 9, 10, 11, 4, 3, 1, 6, 7};
-  int min;
+  int x = get_int("x: ");
+  int y = get_int ("y: ");
 
-  min = [0];
-  for (int i =1; i < 9; i ++)
-  {
-   if (myarray [i] < min) min = myarray [i];
-  }
-
-printf("Minimum: %d\n", min);
-
-
-
-
-
+  int z = add ();
+  printf ("%i\n", z);
 }
+
+int add(void)
+{
+  return x + y;
+}
+
+
