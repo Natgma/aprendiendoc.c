@@ -1,13 +1,9 @@
+include <stdio.h>
 
-
-int main (void)
+int main ()
 
 {
-  int x = get_int("x: ");
-  int y = get_int ("y: ");
-
-  int z = add ();
-  printf ("%i\n", z);
+  myarray1 [] = {5, 9, 10, 11, 4, 3, 1, 6, 7};
 }
 
 int add(void)
