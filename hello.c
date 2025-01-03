@@ -1,14 +1,18 @@
 include <stdio.h>
 
-int main ()
-
+int main (void)
 {
-  myarray1 [] = {5, 9, 10, 11, 4, 3, 1, 6, 7};
-}
+  int myarray[] = {5,9,10,11,4,3,8,6,7}; 
+  int min; 
 
-int add(void)
-{
-  return x + y;
+  min = myarray[0];
+  for (int i = 0; i < 9; i++)
+  {
+    if (myarray[i] < min) min = myarray [i];
+  }
+
+  printf("Minimum: %d\n", min);
+  return 0;
 }
 
 
