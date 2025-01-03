@@ -12,6 +12,7 @@ int main (void)
   }
 
   printf("Minimum: %d\n", min);
+  
   return 0;
 }
 
